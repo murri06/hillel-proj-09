@@ -1,7 +1,7 @@
 <?php
 require_once  "vendor/autoload.php";
-require_once "SpaceShuttle.php";
 
+use App\SpaceShuttle;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
